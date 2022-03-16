@@ -1,0 +1,50 @@
+    h1.center {
+        text-align: center;
+    }
+    p.center {
+        text-align: center;
+    }
+    p.red {
+        color: red;
+    }
+    p.blue {
+        color: blue;
+    }
+    p.green {
+        color: green;
+    }
+    p.big {
+        font-size: x-large;
+    }
+    p.tiny {
+        font-size: x-small;
+    }
+    p.bold {
+        font-weight: bold;
+    }
+    p.changeFont {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p.multipleAttributes {
+        text-align: right;
+        color: orange;
+        font-size: x-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+    }
+    p.styledFont {
+        color: green;
+        font-size: 35px;
+        font-style: italic;
+    }
+    img {
+        border-width: 50px;
+        border-style: dashed;
+        border-color: pink;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
