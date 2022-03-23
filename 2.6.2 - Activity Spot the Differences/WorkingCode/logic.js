@@ -21,14 +21,13 @@ $("#textOrange").on("click", function() {
 	$("#funText").css("color", "orange")
 })
 
-// When the textGreen button is pressed...
+// Quotations around "click." When the textGreen button is pressed...
 $("#textGreen").on("click", function() {
 	// Change funText to green.
 	$("#funText").css("color", "green")
 })
 
-
-// When the boxGrow button is clicked... 
+// Quotations around "click." When the boxGrow button is clicked... 
 $("#boxGrow").on("click", function() {
 	// Increase the size of the box.
 	$("#box").animate({height:"+=35px", width:"+=35px"}, "fast");

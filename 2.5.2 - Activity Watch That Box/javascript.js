@@ -1,28 +1,40 @@
-document.getElementById("shrinkButton").addEventListener("click", function(){
+// Click button to shrink box size
+document.getElementById("shrinkBtn").addEventListener("click", function(){
 
-    document.getElementById("box").style.height = "25px";
-    document.getElementById("box").style.width = "25px";
+    document.getElementById("box").style.height = "50px";
+    document.getElementById("box").style.width = "50px";
+
 
 });
 
-document.getElementById("growButton").addEventListener("click", function(){
+// Click button to grow box size
+document.getElementById("growBtn").addEventListener("click", function(){
 
     document.getElementById("box").style.height = "250px";
     document.getElementById("box").style.width = "250px";
 
 });
 
-document.getElementById("blueButton").addEventListener("click", function)(){
+// Click button to change the box color to blue
+document.getElementById("blueBtn").addEventListener("click", function(){
     
-    document.getElementById("box").style.color = "blue";
+    document.getElementById("box").style.backgroundColor = "blue";
 
 });
 
-document.getElementById("fadeButton").addEventListener("click", function)(){
-    document.getElementById("box").
+// Click button to change the box color white and fade into webpage
+document.getElementById("fadeBtn").addEventListener("click", function(){
+
+    document.getElementById("box").style.backgroundColor = "white";
+
 });
-document.getElementById("resetButton").addEventListener("click", function(){
+
+
+// Click button to reset the color and dimensions of the box
+document.getElementById("resetBtn").addEventListener("click", function(){
 
     document.getElementById("box").style.height = "150px";
+    document.getElementById("box").style.width = "150px";
+    document.getElementById("box").style.backgroundColor = "orange";
 
 });
